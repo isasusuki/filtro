@@ -13,5 +13,8 @@ console.log(usuariosacimade30);
 const usuarioporidade=usuarios.sort((a,b)=> a.idade-b.idade);
 console.log(usuarioporidade);
 
+//ordenando objetos por idade
+const usuarioporidades=usuarios.sort((a,b)=> b.idade-a.idade);
+console.log(usuarioporidades);
 
 
